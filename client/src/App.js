@@ -48,7 +48,7 @@ function App() {
         setError(err);
       })
       .finally(() => {
-        setLoading(true);
+        // setLoading(true);
       });
   };
 
